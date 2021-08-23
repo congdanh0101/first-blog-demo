@@ -12,17 +12,20 @@
 </head>
 
 <body>
-    <header>
-        <!-- Logo -->
-        <a href="#"><img class="logo" src="./resources/image/logo.png" alt="logo"></a>
-        <!-- unorder list -->
-        <ul class="main-nav">
-            <!-- list item -->
-            <li><a href="#">How clients think</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <header id="home">
+        <nav >
+            <!-- Logo -->
+            <a href="#home"><img class="logo" src="./resources/image/logo.png" alt="logo"></a>
+            <!-- unorder list -->
+            <ul class="main-nav">
+                <!-- list item -->
+                <li><a href="#testimonial">How clients think</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="fas fa-bars mobile-nav-icon"></i>
+        </nav>
         <div class="clearfix"></div>
         <div class="row">
             <div class="heading-main-box">
@@ -31,12 +34,12 @@
                     English together. <br>
                     So join with us.
                 </h1>
-                <a href="#" class="btn">Tell me more</a>
-                <a href="#" class="btn">Join with us</a>
+                <a href="#about" class="btn">Tell me more</a>
+                <a href="#product" class="btn">Join with us</a>
             </div>
         </div>
     </header>
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="row">
             <h2>About Us</h2>
             <p class="p-long">
@@ -71,7 +74,7 @@
             </div>
         </div>
     </section>
-    <section class="product-section">
+    <section class="product-section" id="product">
         <h2>Product</h2>
         <div class="row">
             <div class="col span-1-of-3">
@@ -127,36 +130,39 @@
             </div>
         </div>
     </section>
-    <section class="testimonial-section">
+    <section class="testimonial-section" id="testimonial">
         <h2>testimonial</h2>
         <div class="row">
             <div class="col span-1-of-3">
                 <blockquote>
-                    The course is very helpful, I can speak English fluently and I think the SF English became my second family, I love everyone very much. Thank you.
+                    The course is very helpful, I can speak English fluently and I think the SF English became my second
+                    family, I love everyone very much. Thank you.
                     <cite>
-                       <img src="resources/image/person5.jpeg" alt="person1"> Nguyen Chem Gio
+                        <img src="resources/image/person5.jpeg" alt="person1"> Nguyen Chem Gio
                     </cite>
                 </blockquote>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
-                    I believe that who came to this English centre would love this place as I did, when the course finished, I feel sad because studying in that place I always felt funny
+                    I believe that who came to this English centre would love this place as I did, when the course
+                    finished, I feel sad because studying in that place I always felt funny
                     <cite>
-                       <img src="resources/image/person4.jpeg" alt="person1"> Tran Van Vo
+                        <img src="resources/image/person4.jpeg" alt="person1"> Tran Van Vo
                     </cite>
                 </blockquote>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
-                    Trust me, you can master English just by joining this class, I did, so I believe that you can too. Hope that one day, you can come and join in this class
+                    Trust me, you can master English just by joining this class, I did, so I believe that you can too.
+                    Hope that one day, you can come and join in this class
                     <cite>
-                       <img src="resources/image/person3.jpeg" alt="person1"> Le Du Do
+                        <img src="resources/image/person3.jpeg" alt="person1"> Le Du Do
                     </cite>
                 </blockquote>
             </div>
         </div>
     </section>
-    <section class="sponsors-section">
+    <section class="sponsors-section" id="sponsors">
         <h2>sponsors</h2>
         <div class="row">
             <ul class="sponsors-showcase clearfix">
@@ -213,16 +219,18 @@
             </ul>
         </div>
     </section>
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <div class="row">
             <div class="col span-1-of-3">
                 <ul class="infomation">
                     <li>
                         <i class="fas fa-map-marker-alt small-icon"></i>
-                        Addres: 21A, Le Lai street, HCM</li>
+                        Addres: 21A, Le Lai street, HCM
+                    </li>
                     <li>
                         <i class="fas fa-envelope small-icon"></i>
-                        Email: selftaught@edu.com</li>
+                        Email: selftaught@edu.com
+                    </li>
                     <li>
                         <i class="fas fa-phone small-icon"></i>
                         Phone: (+84)099-923-232-320
@@ -273,6 +281,10 @@
             Copyright &copy; 2018 by SELFTAUGHT TEAM
         </p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
 </body>
 
 </html>
